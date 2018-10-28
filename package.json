@@ -1,0 +1,30 @@
+{
+  "name": "xiaomiapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyIp/xiaomiApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthonyIp/xiaomiApi/issues"
+  },
+  "homepage": "https://github.com/AnthonyIp/xiaomiApi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.5",
+    "yeelight-awesome": "^1.0.11"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1"
+  }
+}
